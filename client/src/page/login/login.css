@@ -1,0 +1,62 @@
+.login{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: #12c2e9; 
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+}
+.loginWrapper{
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 10px;
+    height:30%;
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 20px 7px 40px 12px rgba(150, 19, 19, 0.57);
+    -webkit-box-shadow: 20px 7px 36px 12px rgba(134, 47, 98, 0.57);
+    -moz-box-shadow: 20px 7px 36px 12px rgba(82, 7, 167, 0.57);
+}
+.loginFormUser{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.loginFormPassword{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.loginUsername{
+    border: none;
+    border-bottom: 1px solid gray;
+    height:20px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 20px;
+   
+}
+.loginPassword{
+    border: none;
+    border-bottom: 1px solid gray;
+    height:20px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 20px;
+   
+}
+.loginButton{
+    padding: 10px;
+    background-color: teal;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}

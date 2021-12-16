@@ -1,0 +1,47 @@
+
+
+.flatWrapper{
+    padding: 50px;
+    display: flex;
+}
+.imgContainer{
+    flex: 1;
+}
+.flatImg{
+    width: 100%;
+    height: 90vh;
+}
+.InfoContainer{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  padding: 0px 50px;
+}
+.title{
+    font-weight: 200;
+}
+.flatDesc{
+    margin: 20px 10px;
+}
+.flatPrice{
+    font-weight: 100;
+  font-size: 40px;
+}
+.flatSelect{
+    margin-top: 10px;
+   
+}
+.flatSelect>label{
+    font-weight: 500;
+    font-size: 20px;
+}
+.flatSelect>option{
+    width:20px;
+    height: 10px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.flatSelect{
+height: 40px;
+border-radius: 5px;
+}
